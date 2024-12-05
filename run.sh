@@ -1,4 +1,4 @@
-sh compile.sh
+#sh compile.sh``# uses gcc to compile hf.c
 
 sh calc.sh H H 1.4
 sh press_any_key_to_continue.sh
