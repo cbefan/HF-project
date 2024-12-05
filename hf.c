@@ -248,7 +248,7 @@ void scf()	{
 }
 
 int main(int argc, char* argv[]) {
-	printf("Read %d command line arguments\n\n",argc);
+	printf("Read %d command line arguments\n\n",argc-1);
 	
 	initialization(argc,argv);
 	printf("S	%lf %lf\n	%lf %lf\n",S[0][0],S[0][1],S[1][0],S[1][1]);	//3.239

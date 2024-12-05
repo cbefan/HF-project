@@ -1,7 +1,7 @@
 # look upon my shitcode, ye mighty, and despair
-gcc hf.c -o hf.out -lm
+#gcc hf.c -o hf.out -lm
 i=10
-rm data_${1}${2}.csv
+rm -f data_${1}${2}.csv
 while [ "$i" -le 500 ];
 do
 	r=`printf "%.2f\n" $(($i))e-2`
